@@ -1,0 +1,4 @@
+# macOS Finder metadata files
+.DS_Store
+# Also match .DS_Store in any subdirectory
+**/.DS_Store
