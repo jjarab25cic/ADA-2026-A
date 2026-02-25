@@ -20,7 +20,7 @@ def main():
     with open("instancias.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
 
-    print("OK: instancias.json generado.")
+    print("OK")
 
 if __name__ == "__main__":
     main()

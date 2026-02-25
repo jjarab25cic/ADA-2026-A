@@ -115,10 +115,6 @@ def bench_file(path: str, warmup: int = 0) -> None:
 
 
 def main() -> None:
-    """
-    Permite correr desde consola:
-      python gs_run.py instancias.json --warmup 1
-    """
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "file",
