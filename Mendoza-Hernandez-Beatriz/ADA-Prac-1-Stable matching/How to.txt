@@ -1,0 +1,12 @@
+Instrucciones:
+1. Baja la carpeta de GitHub
+2. Abre una terminal dentro de la carpeta
+3. Ejecuta el comando: python run_all.py *Este paso ejecutará el código stable-matching.py para cada uno de los archivos de entrada que se encuentran en la carpeta inputs
+4. Para ver los resultados puedes consultar las imagenes y el archivo result.csv
+
+
+Instructions:
+1. Download the folder from GitHub
+2. Open a terminal inside the folder
+3. Run the command: python run_all.py *This step will execute the stable-matching.py code for each of the input files located in the inputs folder
+4. To see the results, you can check the images and the result.csv file
