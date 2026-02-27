@@ -1,0 +1,116 @@
+=== RESULTADOS DEL ALGORITMO DE GALE-SHAPLEY ===
+Fecha de ejecución: 2026-02-26 17:48:11
+============================================================
+
+Archivo                                  Parejas    Tiempo (ms)    
+-----------------------------------------------------------------
+80_parejas.txt                           80         0.4380
+160_parejas.txt                          160        2.0572
+240_parejas.txt                          240        5.5829
+320_parejas.txt                          320        12.7543
+400_parejas.txt                          400        16.9293
+480_parejas.txt                          480        20.1417
+560_parejas.txt                          560        54.7450
+640_parejas.txt                          640        48.3927
+720_parejas.txt                          720        52.5685
+800_parejas.txt                          800        73.3837
+880_parejas.txt                          880        108.4358
+960_parejas.txt                          960        111.9796
+1040_parejas.txt                         1040       137.4705
+1120_parejas.txt                         1120       253.6669
+1200_parejas.txt                         1200       283.5732
+1280_parejas.txt                         1280       225.2367
+1360_parejas.txt                         1360       297.9475
+1440_parejas.txt                         1440       298.6018
+1520_parejas.txt                         1520       335.9619
+1600_parejas.txt                         1600       288.4231
+1680_parejas.txt                         1680       281.4845
+1760_parejas.txt                         1760       464.3125
+1840_parejas.txt                         1840       458.4821
+1920_parejas.txt                         1920       388.1662
+2000_parejas.txt                         2000       412.6466
+2080_parejas.txt                         2080       502.7821
+2160_parejas.txt                         2160       513.4779
+2240_parejas.txt                         2240       628.7986
+2320_parejas.txt                         2320       621.0650
+2400_parejas.txt                         2400       823.5122
+2480_parejas.txt                         2480       602.8693
+2560_parejas.txt                         2560       627.9560
+2640_parejas.txt                         2640       847.4119
+2720_parejas.txt                         2720       789.2392
+2800_parejas.txt                         2800       938.1987
+2880_parejas.txt                         2880       971.4649
+2960_parejas.txt                         2960       1101.9315
+3040_parejas.txt                         3040       1083.2034
+3120_parejas.txt                         3120       1207.2999
+3200_parejas.txt                         3200       1212.6898
+3280_parejas.txt                         3280       1361.9292
+3360_parejas.txt                         3360       1093.8717
+3440_parejas.txt                         3440       1188.9193
+3520_parejas.txt                         3520       1460.8455
+3600_parejas.txt                         3600       1490.5629
+3680_parejas.txt                         3680       1756.9500
+3760_parejas.txt                         3760       2357.2026
+3840_parejas.txt                         3840       1882.0374
+3920_parejas.txt                         3920       1973.4243
+4000_parejas.txt                         4000       2922.3199
+4080_parejas.txt                         4080       2005.1008
+4160_parejas.txt                         4160       2618.1152
+4240_parejas.txt                         4240       2385.9920
+4320_parejas.txt                         4320       2605.0426
+4400_parejas.txt                         4400       2695.4100
+4480_parejas.txt                         4480       2708.4698
+4560_parejas.txt                         4560       2745.0177
+4640_parejas.txt                         4640       3192.0367
+4720_parejas.txt                         4720       2672.6489
+4800_parejas.txt                         4800       2700.0933
+4880_parejas.txt                         4880       2377.6131
+4960_parejas.txt                         4960       3496.4155
+5040_parejas.txt                         5040       3160.3916
+5120_parejas.txt                         5120       3086.5125
+5200_parejas.txt                         5200       3423.4304
+5280_parejas.txt                         5280       3190.9824
+5360_parejas.txt                         5360       4245.4942
+5440_parejas.txt                         5440       3386.9171
+5520_parejas.txt                         5520       3246.0411
+5600_parejas.txt                         5600       4716.6659
+5680_parejas.txt                         5680       3188.5806
+5760_parejas.txt                         5760       3917.1142
+5840_parejas.txt                         5840       3538.2703
+5920_parejas.txt                         5920       3552.4518
+6000_parejas.txt                         6000       4262.3303
+6080_parejas.txt                         6080       4860.1224
+6160_parejas.txt                         6160       3777.8365
+6240_parejas.txt                         6240       4431.2907
+6320_parejas.txt                         6320       5022.4240
+6400_parejas.txt                         6400       5986.0596
+6480_parejas.txt                         6480       4629.0849
+6560_parejas.txt                         6560       5785.4821
+6640_parejas.txt                         6640       4558.4137
+6720_parejas.txt                         6720       4775.2349
+6800_parejas.txt                         6800       5687.3639
+6880_parejas.txt                         6880       5919.7005
+6960_parejas.txt                         6960       5155.6865
+7040_parejas.txt                         7040       4616.5223
+7120_parejas.txt                         7120       7417.6056
+7200_parejas.txt                         7200       5344.2436
+7280_parejas.txt                         7280       6394.8939
+7360_parejas.txt                         7360       5472.8288
+7440_parejas.txt                         7440       6553.1056
+7520_parejas.txt                         7520       5704.0448
+7600_parejas.txt                         7600       6290.9508
+7680_parejas.txt                         7680       8479.6490
+7760_parejas.txt                         7760       7990.0936
+7840_parejas.txt                         7840       8413.0078
+7920_parejas.txt                         7920       6769.2963
+8000_parejas.txt                         8000       6214.4128
+-----------------------------------------------------------------
+
+=== ESTADÍSTICAS ===
+Total de archivos procesados exitosamente: 100
+Tamaño mínimo: 80 parejas
+Tamaño máximo: 8000 parejas
+Tiempo mínimo: 0.4380 ms
+Tiempo máximo: 8479.6490 ms
+Tiempo promedio: 2599.5984 ms
+Tiempo total: 259959.8380 ms
