@@ -1,7 +1,7 @@
 # gs_run.py
 # Gale–Shapley (emparejamiento estable) optimizado para preferencias por índices (0..N-1).
 # Mide tiempos por instancia dentro de un archivo JSON que contiene varias instancias.
-
+#Ejecucion --> python gs.py instancias.json --warmup 1
 from collections import deque
 import json
 import time

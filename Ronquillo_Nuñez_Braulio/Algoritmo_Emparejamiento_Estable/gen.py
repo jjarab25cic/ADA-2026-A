@@ -10,7 +10,24 @@ def gen_instancia(N: int, seed: int | None = None) -> dict[str, Any]:
     return {"N": N, "proposers": proposers, "receivers": receivers}
 
 def main():
-    tamanos = [2, 4, 8, 16, 25, 50, 100, 200, 500, 1000]
+    tamanos = [
+      32,
+    64,
+    128,
+    256,
+    384,
+    512,
+    640,
+    768,
+    896,
+    1024,
+    1200,
+    1400,
+    1600,
+    1800,
+    1900,
+    2000
+]
 
     data = {
         "format": "stable-matching-indexed-v1",
