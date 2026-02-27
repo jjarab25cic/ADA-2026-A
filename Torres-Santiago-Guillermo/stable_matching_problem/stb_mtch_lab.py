@@ -99,6 +99,9 @@ parejas = stable_match(pref_hombres,pref_mujeres)
 
 t4 = time.time()
 
+
+
+
 for h in pref_hombres:  # Imprimir resultado en el orden de los hombres
         print(f"{h} {parejas[h]}")
 
@@ -111,9 +114,16 @@ t_stbl = t4 - t3
 t_impr = t5 - t4
 
 
+
 df = pd.read_excel(r"D:\CIC\Programas\Algoritmos\time_stb_mtch.xlsx",sheet_name="tiempos")
 
 nf = obtener_indice_archivo(path_archivo, total_hombres=len(pref_hombres))
+# Ejemplo: Crear y escribir en un archivo
+with open(f"D:/CIC/Programas/Algoritmos/gs_match/stable_matching_problem/Resultados/resultados{nf}.txt", "w") as archivo:
+    for h in pref_hombres:  # Imprimir resultado en el orden de los hombres 
+        archivo.write(f"{h} {parejas[h]}\n")
+        
+    
 
 df.loc[len(df)] = [int(nf),t_total,t_leer,t_lista,t_stbl,t_impr]
 df.to_excel(r"D:\CIC\Programas\Algoritmos\time_stb_mtch.xlsx", index=False, sheet_name='tiempos')
