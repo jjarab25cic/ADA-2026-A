@@ -127,4 +127,5 @@ with open(f"D:/CIC/Programas/Algoritmos/gs_match/stable_matching_problem/Resulta
 
 df.loc[len(df)] = [int(nf),t_total,t_leer,t_lista,t_stbl,t_impr]
 df.to_excel(r"D:\CIC\Programas\Algoritmos\time_stb_mtch.xlsx", index=False, sheet_name='tiempos')
+
 print("----------- FIN -----------")
